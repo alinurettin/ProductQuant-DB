@@ -1,0 +1,12 @@
+{
+  "name": "productquant-db",
+  "version": "1.0.0",
+  "description": "Vector compression engine decomposing high-dimensional embeddings into quantized subspace byte codes with sub-millisecond lookup and 95% memory savings.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/run_tests.js"
+  },
+  "author": "Ali Nurettin Demir (alinurettin)",
+  "license": "MIT"
+}

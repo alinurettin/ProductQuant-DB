@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  productquant-db:
+    build: .
+    ports:
+      - "6047:6047"
+    environment:
+      - PORT=6047
+      - NODE_ENV=production
+    restart: unless-stopped
